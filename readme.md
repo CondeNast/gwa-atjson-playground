@@ -1,4 +1,5 @@
-# GWA AtJSON Fun Playground
+GWA AtJSON Fun Playground
+=========================
 
 This is a testbed for rendering of [Rocket](https://github.com/CondeNast/rocket) / GWA articles via [AtJSON](https://github.com/CondeNast/atjson).
 
