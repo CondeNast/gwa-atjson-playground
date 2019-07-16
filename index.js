@@ -27,6 +27,8 @@ const componentMap = {
 
 const source = CopilotSource.fromRaw(markdown).convertTo(VersoSource);
 
+// console.log(VersoSource.schema.map(a => a.type).sort());
+
 // not strictly needed, but handy in case any unannotated markdown is provided
 source.where(a => a.type === 'unknown').remove();
 

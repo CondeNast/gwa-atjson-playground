@@ -30,7 +30,9 @@ composable and have children.
 * caption?: CaptionSource
 * width?: string
 * height?: string
-* aspectRatio?: string;#### Cne-embe
+* aspectRatio?: string;
+
+#### CneEmbed
 
 #### Code
 
@@ -51,7 +53,7 @@ composable and have children.
 
 #### [HorizontalRule](https://github.com/CondeNast/atjson/blob/latest/packages/%40atjson/source-commonmark/src/annotations/horizontal_rule.ts)
 
-#### Iframe-embed
+#### IframeEmbed
 
 #### [Image](https://github.com/CondeNast/atjson/blob/latest/packages/%40atjson/source-commonmark/src/annotations/image.ts)
 * alt: string
