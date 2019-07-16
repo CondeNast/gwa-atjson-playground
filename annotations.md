@@ -66,10 +66,11 @@ composable and have children.
 
 #### LineBreak
 
-#### [Link](https://github.com/CondeNast/copilot-atjson/blob/latest/packages/source-copilot-markdown/src/annotations/link.ts)
-* href: string
+#### [Link](https://github.com/CondeNast/copilot-atjson/blob/latest/packages/source-verso/src/annotations/link.ts)
+* url: string
 * title: string
-* [key: string]: string
+* target: string
+* rel: string
 
 #### List
 
