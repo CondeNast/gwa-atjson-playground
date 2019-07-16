@@ -32,7 +32,7 @@ const source = CopilotSource.fromRaw(markdown).convertTo(VersoSource);
 // not strictly needed, but handy in case any unannotated markdown is provided
 source.where(a => a.type === 'unknown').remove();
 
-// console.log([...new Set(source.annotations.map(a => a.type))]);
+// console.log([...new Set(source.annotations.map(a => a.type))].sort());
 // console.log(util.inspect(source, false, null, true));
 
 const html = renderToStaticMarkup(ReactRenderer.render(source, componentMap));
